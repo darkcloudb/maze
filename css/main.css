@@ -1,0 +1,57 @@
+/*  Put your CSS Here */
+:root {
+  box-sizing: border-box;
+}
+
+#maze {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(185, 182, 182);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  /* flex-grow: 1; */
+
+  display: flex;
+}
+
+.block {
+  width: 20px;
+  height: 20px;
+  /* flex-grow: 1; */
+}
+
+.wall {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+
+.you {
+  width: 20px;
+  height: 20px;
+  /* flex-grow: 1; */
+  background-color: white;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  border-radius: 20%;
+}
+
+.gameOver {
+  width: 20px;
+  height: 20px;
+  /* flex-grow: 1; */
+  background-color: gold;
+}
+
+#messages {
+  color: gold;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}

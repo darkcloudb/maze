@@ -1,2 +1,3 @@
-# maze
-Simple HTML maze game, can you get to the finish line?
+# Building a Maze
+
+Follow the instructions on my.kenzie.academy
